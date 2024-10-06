@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-10-06T23:54:30.934794" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-10-07T00:35:42.239985" rpa="false" schemaversion="5">
 <suite id="s1" name="TestCase1" source="c:\Users\Administrator\Desktop\project\Tests\TestCase1.robot">
-<test id="s1-t1" name="Exercise2" line="11">
+<test id="s1-t1" name="Exercise3" line="16">
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-10-06T23:54:31.724299" level="INFO">[18, 48, 5, 64, 82, 36, 27, 3, 7, 10]</msg>
-<arg>${random_numbers}</arg>
+<msg time="2024-10-07T00:35:43.031221" level="INFO">99</msg>
+<arg>${random_number}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-10-06T23:54:31.724299" elapsed="0.001999"/>
+<status status="PASS" start="2024-10-07T00:35:43.031221" elapsed="0.001958"/>
 </kw>
-<kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-10-06T23:54:31.727300" level="INFO">${total} = 300</msg>
-<var>${total}</var>
-<arg>sum(${random_numbers})</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-10-06T23:54:31.726298" elapsed="0.001002"/>
-</kw>
-<kw name="Should Be Equal" owner="BuiltIn">
-<arg>${total}</arg>
-<arg>${sum_random_numbers}</arg>
-<doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2024-10-06T23:54:31.727300" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-10-06T23:54:31.721300" elapsed="0.006998"/>
+<status status="PASS" start="2024-10-07T00:35:43.028222" elapsed="0.004957"/>
 </test>
 <doc>Verify Text Equality</doc>
-<status status="PASS" start="2024-10-06T23:54:30.938809" elapsed="0.815004"/>
+<status status="PASS" start="2024-10-07T00:35:42.244489" elapsed="0.817414"/>
 </suite>
 <statistics>
 <total>
