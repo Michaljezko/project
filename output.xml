@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-10-07T00:35:42.239985" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-10-07T00:37:14.406298" rpa="false" schemaversion="5">
 <suite id="s1" name="TestCase1" source="c:\Users\Administrator\Desktop\project\Tests\TestCase1.robot">
 <test id="s1-t1" name="Exercise3" line="16">
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-10-07T00:35:43.031221" level="INFO">99</msg>
+<msg time="2024-10-07T00:37:15.196754" level="INFO">99</msg>
 <arg>${random_number}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-10-07T00:35:43.031221" elapsed="0.001958"/>
+<status status="PASS" start="2024-10-07T00:37:15.196754" elapsed="0.001995"/>
 </kw>
-<status status="PASS" start="2024-10-07T00:35:43.028222" elapsed="0.004957"/>
+<status status="PASS" start="2024-10-07T00:37:15.193216" elapsed="0.005533"/>
 </test>
 <doc>Verify Text Equality</doc>
-<status status="PASS" start="2024-10-07T00:35:42.244489" elapsed="0.817414"/>
+<status status="PASS" start="2024-10-07T00:37:14.409287" elapsed="0.816647"/>
 </suite>
 <statistics>
 <total>
