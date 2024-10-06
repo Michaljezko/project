@@ -1,0 +1,39 @@
+{"level":30,"time":"2024-10-06T21:54:31.596Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"Listening on 52177"}
+(node:14120) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-10-06T21:54:31.719Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-06T21:54:31.720Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-06T21:54:31.723Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-06T21:54:31.723Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10062:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10678:59)
+    at PlaywrightServer.setTimeout (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10915:57)
+    at Object.onReceiveHalfClose (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1347:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:564:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:604:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:372:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-10-06T21:54:31.751Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-06T21:54:31.751Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10062:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10678:59)
+    at PlaywrightServer.setTimeout (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10915:57)
+    at Object.onReceiveHalfClose (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1347:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:564:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:604:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:372:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-10-06T21:54:31.777Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-06T21:54:31.777Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-06T21:54:33.802Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-10-06T21:54:33.802Z","pid":14120,"hostname":"LenovoIdeaPadG3","msg":"End of node method closeAllBrowsers"}
